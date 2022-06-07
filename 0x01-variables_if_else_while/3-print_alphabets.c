@@ -13,7 +13,6 @@ while (c <= 'z'){
   putchar(c);
  c++;
 }
-//Re-initialising the variale c:
 c = 'A';
 while (c <= 'Z'){
 putchar(c);
