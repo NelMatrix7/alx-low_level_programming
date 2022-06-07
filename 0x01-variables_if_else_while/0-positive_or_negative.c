@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main-main Block
- * Descriptsion: This is a simple c program.
- * return: 0
-
+ * main - main block
+ * Description: This program gets a random number and print it
+ * if it is positive, negative, or zero
+ * Return: 0
  */
 int main(void)
 {
