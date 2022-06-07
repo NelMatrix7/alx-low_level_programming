@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-	char hexNum1 = '0';
+	char d = '0';
 
-	while (hexNum1 <= '9')
+	while (d <= '9')
 	{
-		putchar(hexNum1);
-		hexNum1++;
+		putchar(d);
+	 	d++;
 	}
 
-	char hexNum2 = 'a';
+	char c = 'a';
 
-	while (hexNum2 <= 'f')
+	while (c <= 'f')
 	{
-		putchar(hexNum2);
-		hexNum2++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
