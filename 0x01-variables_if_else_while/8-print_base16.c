@@ -9,11 +9,11 @@
 int main(void)
 {
 	char d = '0';
-  	char c = 'a';
+	char c = 'a';
 	while (d <= '9')
 	{
 		putchar(d);
-	 	d++
+		d++;
 }
 
 	while (c <= 'f')
@@ -23,4 +23,6 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
+}
